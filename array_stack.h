@@ -9,9 +9,9 @@
 #include "dynamicArray.h"
 
 template<class T>
-class ArratStack :  protected DynamicArray<T> ,public Stack<T>{
+class ArrayStack :  protected DynamicArray<T> ,public Stack<T>{
 public:
-    ArratStack() : DynamicArray<T>() {
+    ArrayStack() : DynamicArray<T>() {
 
     }
 
